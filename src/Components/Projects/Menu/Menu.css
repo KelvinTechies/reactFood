@@ -1,0 +1,115 @@
+.div_3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu_container h3:nth-child(1) {
+  color: rgb(233, 65, 93);
+}
+.menu_container {
+  padding: 1rem;
+}
+
+.div_3 {
+  margin-top: -3rem;
+}
+.div_2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.div_3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn2 button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.btn2 {
+  display: flex;
+  gap: 2rem;
+}
+.btn2 button:nth-child(2) {
+  background-color: rgb(233, 65, 93);
+}
+.menu_ball {
+  width: 10px;
+  height: 10px;
+  background-color: gold;
+  border-radius: 50%;
+  position: absolute;
+  left: 24rem;
+  bottom: -22rem;
+}
+.h3 {
+  display: flex;
+}
+.menu_ball2 {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(233, 65, 93);
+  border-radius: 50%;
+  position: absolute;
+  left: 54rem;
+}
+
+.sideBar {
+  width: 20%;
+}
+.sideBar ul {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(34, 33, 33);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  overflow-y: scroll;
+}
+.menu_items {
+  display: flex;
+  width: 70%;
+  /* gap: 3rem; */
+  justify-content: space-around;
+}
+.menuDiv {
+  display: flex;
+  gap: 4rem;
+}
+.imgFood {
+  width: 300px;
+  height: 300px;
+}
+.imgFood img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+.imgFoodBx {
+  width: 300px;
+  position: relative;
+}
+.imgFoodBx .desci {
+  position: absolute;
+  top: 7rem;
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+}
+.desci h3 {
+  color: white;
+  margin-bottom: -2rem;
+}
+.desci p span {
+  color: gold;
+}
+.desci {
+  padding: 0.3rem;
+}

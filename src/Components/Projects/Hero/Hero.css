@@ -1,0 +1,220 @@
+.left {
+  width: 50%;
+  flex: 1;
+  margin-left: 150px;
+}
+
+.btn1 button {
+  border-radius: 20px;
+  padding: 0.8rem;
+  border: none;
+  width: 150px;
+}
+
+.btn1 {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn1 button:nth-child(1) {
+  background-color: rgb(233, 65, 93);
+  color: white;
+}
+.btn_1 {
+  display: flex;
+  gap: 10px;
+}
+.rounded-customers {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: relative;
+  background-color: rgb(233, 65, 93);
+}
+
+.rounded-customers img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+}
+.imgBX {
+  display: flex;
+}
+.cust2 {
+  left: -15px;
+}
+
+.cust3 {
+  left: -25px;
+}
+
+.right {
+  width: 50%;
+}
+/* background: url(./images/FFD6E0.png-removebg-preview.png); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* background-position: center; */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 90%; */
+  /* margin: auto; */
+  margin-top: 4rem;
+  /* background-color: #f4dfcf; */
+  /* background-color: rgb(247, 220, 220); */
+}
+.rouded-bg_img {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(233, 65, 93);
+  border-radius: 50%;
+  position: relative;
+}
+
+.rouded-bg_img img {
+  position: absolute;
+  transform: scale(2.4);
+  left: 3rem;
+  top: 5rem;
+}
+
+.hero-container .left h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(55, 53, 53);
+}
+.hero-container .left p {
+  font-size: 20px;
+  color: rgb(55, 53, 53);
+}
+
+.hero-container span {
+  color: rgb(233, 65, 93);
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+}
+.partialwhite {
+  background-color: white;
+  bottom: 80px;
+  position: absolute;
+  left: -5rem;
+  color: black;
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+  align-items: center;
+  box-shadow: -4px -1px 5px -1px rgba(224, 208, 224, 0.66);
+}
+.partialwhite h6 {
+  margin-top: -10px;
+}
+.icon-div {
+  background-color: rgb(233, 65, 93);
+  width: 10px;
+  height: 10px;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.human-head {
+  width: 10px;
+  height: 10px;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gold;
+  position: relative;
+}
+.partialwhite2 {
+  background-color: white;
+  top: 20rem;
+  position: absolute;
+  left: 16rem;
+  color: black;
+  /* height: 40px; */
+  width: 230px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+  align-items: center;
+  padding: 0.7rem;
+  box-shadow: -4px -1px 5px -1px rgba(224, 208, 224, 0.66);
+}
+.partialwhite2 .img {
+  background: url(../../../images/pizza.jpg);
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+.price span {
+  font-weight: 900;
+  color: black;
+  font-size: 17px;
+}
+.desc {
+  margin-left: 10px;
+  font-weight: 900;
+  color: black;
+  font-size: 14px;
+}
+.fireEmoji {
+  position: absolute;
+  top: -7rem;
+  left: 19rem;
+}
+.playBtn {
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  border-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateZ(340deg);
+}
+.left-syd {
+  width: 10px;
+  height: 10px;
+  /* background-color: rgb(233, 65, 93); */
+  border-radius: 50%;
+  left: -1rem;
+  top: 25rem;
+  position: absolute;
+  border: 8px dotted rgb(233, 65, 93);
+  animation: move 2s infinite linear;
+}
+.right-syd {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(233, 65, 93);
+  border-radius: 50%;
+  left: 29rem;
+  top: 12rem;
+  position: absolute;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

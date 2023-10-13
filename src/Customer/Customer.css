@@ -1,0 +1,85 @@
+.chef_layout {
+  width: 430px;
+  height: 400px;
+  background-color: rgb(233, 65, 93);
+  border-top-left-radius: 20%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 10%;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.customer_div {
+  width: 80%;
+  margin: auto;
+}
+.customer_container {
+  margin-top: 8rem;
+}
+.img {
+  transform: scale(2.7);
+  position: absolute;
+  /* height: 70%; */
+  left: 4rem;
+}
+.m img:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  top: 4rem;
+  z-index: 2;
+  left: -2rem;
+  top: -5rem;
+  position: absolute;
+}
+.m img:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  top: 4rem;
+  z-index: 2;
+  left: 3rem;
+  top: -5rem;
+  position: absolute;
+  transform: rotatez(200deg);
+}
+.m img:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  top: 4rem;
+  z-index: 2;
+  left: 22rem;
+  top: -5rem;
+  position: absolute;
+}
+.m img:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  top: 4rem;
+  z-index: 2;
+  left: 25rem;
+  top: -3rem;
+  position: absolute;
+  transform: rotateZ(200deg);
+}
+.m img:nth-child(5) {
+  width: 70px;
+  height: 70px;
+  top: 4rem;
+  z-index: 2;
+  left: -2rem;
+  top: 3rem;
+  position: absolute;
+  transform: rotateZ(200deg);
+}
+.lay {
+  background-color: white;
+  padding: 1rem;
+  z-index: 1000;
+  border-radius: 10px;
+}
+.btm_layOut {
+  position: absolute;
+  bottom: 0;
+  left: 20rem;
+}

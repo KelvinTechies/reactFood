@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav h3 span {
+  font-size: 50px;
+  color: rgb(233, 65, 93);
+  font-weight: 900;
+}
